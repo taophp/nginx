@@ -15,7 +15,7 @@ There is no automated build for the Raspberry Pi, as far as I know.
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Build an image from Dockerfile: `docker build -t="dockerfile/nginx" github.com/taophp/nginx`)
+2. Build an image from Dockerfile: `docker build -t="taophp/nginx" github.com/taophp/nginx`)
 
 
 ### Usage
