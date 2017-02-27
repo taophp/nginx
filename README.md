@@ -20,10 +20,10 @@ There is no automated build for the Raspberry Pi, as far as I know.
 
 ### Usage
 
-    docker run -d -p 80:80 dockerfile/nginx
+    docker run -d -p 80:80 taophp/nginx
 
 #### Attach persistent/shared directories
 
-    docker run -d -p 80:80 -v <sites-enabled-dir>:/etc/nginx/conf.d -v <certs-dir>:/etc/nginx/certs -v <log-dir>:/var/log/nginx -v <html-dir>:/var/www/html dockerfile/nginx
+    docker run -d -p 80:80 -v <sites-enabled-dir>:/etc/nginx/conf.d -v <certs-dir>:/etc/nginx/certs -v <log-dir>:/var/log/nginx -v <html-dir>:/var/www/html taophp/nginx
 
 After few seconds, open `http://<host>` to see the welcome page.
